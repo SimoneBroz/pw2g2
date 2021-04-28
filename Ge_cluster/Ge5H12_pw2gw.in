@@ -1,6 +1,6 @@
 &inputpp
-    prefix='Ge5H12',
-    outdir='./tmp'
+  prefix='Ge5H12',
+  outdir='./tmp'
   what='gw',
   qplda=.false.,
   vxcdiag=.false.,
