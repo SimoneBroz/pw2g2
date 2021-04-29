@@ -1,0 +1,35 @@
+
+
+&control
+    calculation='scf',
+    prefix='graphene',
+    outdir='./tmp'
+    restart_mode='from_scratch'
+    pseudo_dir = '../../pseudo'
+    wf_collect=.true.
+    verbosity = 'high'
+
+/
+ &system
+    ibrav = 4,
+    celldm(1) = 4.6543,
+    celldm(3) = 7,
+    nat= 2,
+    ntyp= 1,
+    nbnd = 20,
+    ecutwfc = 50,
+    occupations='smearing'
+    degauss=0.0001
+/
+&electrons
+ conv_thr =  1.0e-9
+/
+ATOMIC_SPECIES
+C  12.01070 C.pz-n-rrkjus_psl.0.1.UPF
+ATOMIC_POSITIONS {crystal}
+ C 0.666660000 0.333330000 0.000
+C 0.000000000 0.000000000 0.0000
+K_POINTS {automatic}
+12 12 1 0 0 0
+
+
