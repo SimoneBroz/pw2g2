@@ -1,0 +1,88 @@
+
+     Program PW2GW v.6.4.1 starts on 30Apr2021 at 11:47:28 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Serial version
+
+     Reading data from directory:
+     ./tmp/Ge5H12.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PZ ( 1  1  0  0 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+               file H.pz-vbc.UPF: wavefunction(s)  1S renormalized
+
+     G-vector sticks info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Sum        8585    8585   2145               599161   599161   74773
+
+
+
+ writing LDA info on unit io UNFORMATTED
+
+
+ writing matrixelements on unit 98 FORMATTED
+ qplda title
+ pw2gw                                                                           
+ test version                                                                    
+    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+ Vettori di reticolo diretto
+a1  0.300000000000000000E+02  0.000000000000000000E+00  0.000000000000000000E+00
+a2  0.000000000000000000E+00  0.300000000000000000E+02  0.000000000000000000E+00
+a3  0.000000000000000000E+00  0.000000000000000000E+00  0.300000000000000000E+02
+ nrot=           1
+  0.100000000000000000E+01  0.000000000000000000E+00  0.000000000000000000E+00
+  0.000000000000000000E+00  0.100000000000000000E+01  0.000000000000000000E+00
+  0.000000000000000000E+00  0.000000000000000000E+00  0.100000000000000000E+01
+  nks            1
+  k points in  cartesian coordinates
+   0.000000  0.000000  0.000000
+ NDIMCP =        37387
+ fine debug sui punti g
+   0.000000  0.000000  0.000000
+ nbndsi=          60
+           1
+ weights:
+ 2.0000000
+ ik=           1
+ 2.0000000 2.0000000 2.0000000 2.0000000 2.0000000 2.0000000 2.0000000 2.0000000 2.0000000 2.0000000
+ 2.0000000 2.0000000 2.0000000 2.0000000 2.0000000 2.0000000 0.0000000 0.0000000 0.0000000 0.0000000
+ 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000
+ 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000
+ 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000
+ 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000 0.0000000
+ io sono omax =          500
+ alpha =    2.0000000000000000E-002
+ halfalpha =    1.0000000000000000E-002
+ const =    29.461025428548517     
+ sono qui 6
+   0.0000000000000000        0.0000000000000000     
+ igwx, npw       37387       37387
+ Costruisco le psi ed il matrixelements
+ Controllo: I punti k ora devo essere in coordinate cartesiane!
+   0.000000  0.000000  0.000000
+  out from k-points loop
+  Starting writing epsx,y,z,tot
+   0.0000000000000000     
+   3.3521304905127296E-005
+   0.0000000000000000        0.0000000000000000     
+  Hey bello sto a fini
+
+     PW2GW        :      0.69s CPU      0.92s WALL
+
+
+   This run was terminated on:  11:47:28  30Apr2021            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
